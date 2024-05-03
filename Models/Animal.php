@@ -9,11 +9,11 @@ class Animal{
     $this->icon = $this -> setIcon($_type);
   }
 
-  public function setIcon($_type){
+    public function setIcon($_type){
       if($_type == 'cane'){
-        echo '<i class="fa-solid fa-dog"></i>';
+        return '<i class="fa-solid fa-dog"></i>';
       }elseif ($_type == 'gatto'){
-        echo '<i class="fa-solid fa-cat"></i>';
+        return '<i class="fa-solid fa-cat"></i>';
       }
     } 
 

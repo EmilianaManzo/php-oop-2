@@ -19,7 +19,7 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
   <!-- CSS  -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   
   <title>PHP-OOP-1</title>
 </head>

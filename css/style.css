@@ -1,0 +1,13 @@
+body{
+  background-color: lightcyan !important;
+}
+
+.img{
+  height: 280px;
+  line-height: 280px;
+}
+
+h5,
+p{
+  text-transform: capitalize;
+}
