@@ -1,10 +1,13 @@
 <?php 
 require_once __DIR__ . '/Models/Product.php';
-require_once __DIR__ . '/Models/Category.php';
+require_once __DIR__ . '/Models/Food.php';
+require_once __DIR__ . '/Models/Toy.php';
+require_once __DIR__ . '/Models/Accessory.php';
 require_once __DIR__ . '/Models/Animal.php';
 require_once __DIR__ . '/db.php';
 
-// var_dump($db);
+var_dump($db);
+
 
 include_once __DIR__ . '/partials/head.php';
 ?>
@@ -28,6 +31,7 @@ include_once __DIR__ . '/partials/head.php';
             <span><?php echo $prodotti->name_category?></span>
             <p class="card-title"><?php echo $prodotti->price ?>&euro;</p>
             <p class="card-text"><?php echo $prodotti->animal->icon ?></p>
+            <p class="card-text"><?php echo ($prodotti->weight ??  ' ') ?></p>
           </div>
 
         </div>
